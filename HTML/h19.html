@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Conference registaration Form</title>
+</head>
+
+<body>
+  <h1>Conference registaration Form</h1>
+  <form name="Participant Information" action="">
+    <fieldset>
+      <legend>
+        Participant Information
+      </legend>
+      <label for="name">
+        Full Name:
+      </label>
+      <input type="text" id="name" name="name"><br>
+      <label>
+        <label for="name">
+          Email:
+        </label>
+        <input type="text" id="name" name="Email"><br>
+      </label>
+      <label for="name">
+        Contact Number:
+      </label>
+      <input type="text" id="name" name="Contact number"><br>
+      Geender:
+      <label><input type="radio" name="gender" value="Male">Male</label>
+      <label><input type="radio" name="gender" value="Female" checked>Female</label>
+      <br>
+      <label for="name">
+        Organization:
+      </label>
+      <input type="text" id="name" name="Organization">
+    </fieldset>
+  </form>
+  <form>
+    <fieldset>
+      <legend>
+        Event Preferences
+      </legend>
+      <label for="Track"> Track:</label>
+      <select id="Track">
+        <option value="select">Select Track</option>
+      </select><br>
+      Days Attending:
+      <label for="Days">
+        <input type="checkbox" checked>
+        Day 1 <input type="checkbox"> Day 2 <input type="checkbox"> Day 3
+      </label><br>
+      T-Shirt Size:
+      <label for="Size">
+        <select id="size">
+          <option value="select">
+            M
+        </select>
+      </label><br>
+      <label for="fileupload">upload ID Proof:</label>
+      <input type="file" id="fileupload" name="myfile" accept=".jpg,.png" multiple required>
+    </fieldset>
+  </form>
+  <form>
+    <fieldset>
+      <legend>
+        Additional Information
+      </legend>
+      <label for="ta">Dietaey Restrictions:</label>
+      <textarea id="ta" name="textarea" rows="4" cols="50"></textarea><br>
+      <label for="ta"> Special Requests:</label>
+      <textarea id="ta" name="textarea" rows="4" cols="50"></textarea><br>
+      <label>
+        Agree to terms:
+        <input type="checkbox" checked>
+      </label>
+    </fieldset>
+  </form>
+  <input type="submit" value="Register">
+</body>
+
+</html>

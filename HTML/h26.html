@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>LPU Alumni Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #003366; /* LPU Blue */
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #005599;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 1000px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #003366;
+        }
+        .alumni-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .alumni-card {
+            background-color: #e9e9e9;
+            padding: 1rem;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .alumni-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            background-color: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lovely Professional University Alumni</h1>
+        <p>Connecting Graduates, Building Futures</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#alumni">Alumni</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About LPU Alumni</h2>
+        <p>Lovely Professional University (LPU) Alumni Association is dedicated to fostering lifelong connections among graduates. We provide networking opportunities, career support, and community engagement.</p>
+    </section>
+    <section id="alumni">
+        <h2>Notable Alumni</h2>
+        <div class="alumni-grid">
+            <div class="alumni-card">
+                <img src="placeholder.jpg" alt="Alumni 1">
+                <h3>John Doe</h3>
+                <p>CEO, Tech Company</p>
+            </div>
+            <div class="alumni-card">
+                <img src="placeholder.jpg" alt="Alumni 2">
+                <h3>Jane Smith</h3>
+                <p>Engineer, Innovator</p>
+            </div>
+            <div class="alumni-card">
+                <img src="placeholder.jpg" alt="Alumni 3">
+                <h3>Bob Johnson</h3>
+                <p>Entrepreneur</p>
+            </div>
+        </div>
+    </section>
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <ul>
+            <li>Alumni Reunion - October 15, 2023</li>
+            <li>Career Workshop - November 5, 2023</li>
+            <li>Networking Meetup - December 10, 2023</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: alumni@lpu.edu.in</p>
+        <p>Phone: +91-123-456-7890</p>
+        <p>Address: Lovely Professional University, Punjab, India</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 LPU Alumni Association</p>
+    </footer>
+</body>
+</html>
